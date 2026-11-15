@@ -1,10 +1,10 @@
-body { margin: 0; padding: 0; font: 400 12pt/1.5 'Open Sans', sans-serif; }
+body { margin: 0; padding: 0; font: 400 12pt/1.5 'Comic Sans MS', fantasy;background-color: blueviolet }
 
 h1 { text-align: center; margin-top: 0.5em; font-size: 4rem; }
 h2 { text-align: center; margin-top: 0; font-size: 3em; }
 p { margin-top: 1rem; margin-bottom: 1rem; }
 
-a { border-bottom: 2px solid #337ab7; color: #337ab7; text-decoration: none; transition: color 0.5s, border-bottom 0.5s ; }
+a { border-bottom: 2px solid lime; color: #fff; text-decoration: none; transition: color 0.5s, border-bottom 0.5s ; }
 a:hover, a:focus { color: #edb738; border-bottom: 2px solid #edb738; text-decoration: none; }
 
 header nav { text-align: right; border-bottom: 2px solid #ececec; padding: 1em 2em 1em 4em; }
