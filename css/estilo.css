@@ -17,3 +17,14 @@ header nav ul li { display: inline; padding: 0 1em 0 1em; font-weight: 700; font
 
 #intro { width: 100%; }
 #intro p { text-align: center; font-size: 1.2em; }
+
+#hero { height: 100vh; background: url('../img/fundo1.jpg') no-repeat center center scroll; background-size: cover; }
+#hero h1 { font-size: 8rem; color: #FFDB3A; text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #ffffff, 5px 5px #ffffff; }
+
+h1 { animation: piscar 2s linear infinite; }
+@keyframes piscar {
+    0% { opacity: 0; }
+}
+
+#intro { width: 100%; }
+#intro p { text-align: center; font-size: 1.2em; }
