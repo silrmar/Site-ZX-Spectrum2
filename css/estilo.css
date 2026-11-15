@@ -1,10 +1,10 @@
-body { margin: 0; padding: 0; font: 400 12pt/1.5 'Open Sans', sans-serif; }
+body { margin: 0; padding: 0; font: 400 12pt/1.5 'Comic Sans MS', fantasy;background-color: blueviolet }
 
 h1 { text-align: center; margin-top: 0.5em; font-size: 4rem; }
 h2 { text-align: center; margin-top: 0; font-size: 3em; }
 p { margin-top: 1rem; margin-bottom: 1rem; }
 
-a { border-bottom: 2px solid #337ab7; color: #337ab7; text-decoration: none; transition: color 0.5s, border-bottom 0.5s ; }
+a { border-bottom: 2px solid lime; color: #fff; text-decoration: none; transition: color 0.5s, border-bottom 0.5s ; }
 a:hover, a:focus { color: #edb738; border-bottom: 2px solid #edb738; text-decoration: none; }
 
 header nav { text-align: right; border-bottom: 2px solid #ececec; padding: 1em 2em 1em 4em; }
@@ -14,6 +14,17 @@ header nav ul li { display: inline; padding: 0 1em 0 1em; font-weight: 700; font
 
 #hero { height: 100vh; background: url('../img/fundo1.jpg') no-repeat center center scroll; background-size: cover; }
 #hero h1 { font-size: 8rem; color: #FFDB3A; text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #ffffff, 5px 5px #ffffff; }
+
+#intro { width: 100%; }
+#intro p { text-align: center; font-size: 1.2em; }
+
+#hero { height: 100vh; background: url('../img/fundo1.jpg') no-repeat center center scroll; background-size: cover; }
+#hero h1 { font-size: 8rem; color: #FFDB3A; text-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #ffffff, 5px 5px #ffffff; }
+
+h1 { animation: piscar 2s linear infinite; }
+@keyframes piscar {
+    0% { opacity: 0; }
+}
 
 #intro { width: 100%; }
 #intro p { text-align: center; font-size: 1.2em; }
